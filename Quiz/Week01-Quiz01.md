@@ -1,3 +1,3 @@
-# Week 1 | I. Introduction
+# Week 1 ||| I. Introduction
 
 ## Question 1
