@@ -1,1 +1,1 @@
-![](https://latex.codecogs.com/gif.latex?\alpha)
+![](https://latex.codecogs.com/gif.latex?%5Calpha)
