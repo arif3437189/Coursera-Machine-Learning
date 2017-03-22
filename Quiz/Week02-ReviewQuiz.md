@@ -24,7 +24,7 @@ So x<sub>2</sub><sup>(4)</sup> is 4761 - 6675.5/4075 = -0.47.
 
 ## Question 2
 
-You run gradient descent for 15 iterations with α=0.3 and compute J(θ) after each iteration. You find that the value of J(θ) decreases slowly and is still decreasing after 15 iterations. Based on this, which of the following conclusions seems most plausible?
+You run gradient descent for 15 iterations with α=0.3 and compute J(θ) after each iteration. You find that the value of J(θ) **decreases slowly** and is still decreasing after 15 iterations. Based on this, which of the following conclusions seems most plausible?
 
 ### Answer
 
