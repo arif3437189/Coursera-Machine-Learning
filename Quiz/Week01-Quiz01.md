@@ -21,3 +21,34 @@ Suppose you are working on weather prediction, and you would like to predict wea
 
 * **Classification**
 * Regression
+
+## Question 3
+
+Suppose you are working on stock market prediction. You would like to predict weather or not a certain company will win a patent infringement lawsuit (by training on data of companies that had to defend against similar lawsuit). Would you treat this as a classification or a regression problem?
+
+### Answer
+
+* **Classification**
+* Regression
+
+## Question 4
+
+Some of the problems below are best addressed using a supervised learning algorithm, and the others with an unsupervised learning algorithm. Which of the following would you apply supervised learning to? (Select all that apply.). In each case, assume some appropriate data is available for your algorithm to learn from.
+
+### Answer
+
+* **Given 50 articles written by male authors, and 50 articles written by female authors, learn to predict the gender of a new manuscript's author (when the identity of this author is unknown).**
+* **Given historical data of children's ages and heights, predict children's height as a function of their age.**
+* Take a collection of 1000 essays written on the US Economy, and find a way to automatically group these essays into a small number of groups of essays that are somehow "similar" or "related".
+* Examine a large collection of emails that are known to be spam email, to discover if there are sub-types of spam mail.
+
+## Question 5
+
+Which of these is a reasonable definition of machine learning?
+
+### Answer
+
+* Machine learning learns from labeled data.
+* Machine learning is the field of allowing robots to act intelligently.
+* **Machine learning is the field of study that gives computers the ability to learn without being explicitly programmed.**
+* Machine learning is the science of programming computers.
