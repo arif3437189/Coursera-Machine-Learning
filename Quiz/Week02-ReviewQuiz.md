@@ -20,4 +20,14 @@ What is the normalized feature x<sub>2</sub><sup>(4)</sup>? (Hint: midterm = 69,
 
 The mean of x<sub>2</sub> is 6675.5 and the range is 8836 - 4761 = 4075 
 
-So x<sub>2</sub><sup>()</sup> is 4761 - 6675.5/4075 = -0.47.
+So x<sub>2</sub><sup>(4)</sup> is 4761 - 6675.5/4075 = -0.47.
+
+## Question 2
+
+You run gradient descent for 15 iterations with a=0.3 and compute J(?) after each iteration. You find that the value of J(?) decreases slowly and is still decreasing after 15 iterations. Based on this, which of the following conclusions seems most plausible?
+
+### Answer
+
+* Rather than use the current value of a, it'd be more promising to try a smaller value of a (say a=0.1).
+* a=0.3 is an effective choice of learning rate.
+* **Rather than use the current value of a, it'd be more promising to try a larger value of a (say a=1.0).**
