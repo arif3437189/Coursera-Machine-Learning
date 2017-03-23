@@ -17,7 +17,11 @@ for iter = 1:num_iters
     %       of the cost function (computeCostMulti) and gradient here.
     %
 
-
+	prediction = X*theta;
+	sim_updates = X' * (prediction - y);
+	
+	theta = theta - alpha*(1/m)*sim_updates;
+	% theta = theta - alpha*(1/m)*(X' * (X*theta - y));
 
 
 
