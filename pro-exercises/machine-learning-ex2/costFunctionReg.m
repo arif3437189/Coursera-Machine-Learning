@@ -18,7 +18,17 @@ grad = zeros(size(theta));
 %               derivatives of the cost w.r.t. each parameter in theta
 
 
+prediction =  sigmoid(X*theta);
+lt_term = -y' * log(prediction);
+rt_term = (1-y') * log(1-prediction);
 
+thetaZero = theta;
+thetaZero(1) = 0;
+lambdaCost = (lambda / (2*m)) * sum(thetaZero .^ 2);
+lambdaGrad = lambda / m * thetaZero;
+
+J = (1/m) * (lt_term - rt_term) + lambdaCost;
+grad = ((1/m) * (X' * (prediction - y))) + lambdaGrad;
 
 
 
